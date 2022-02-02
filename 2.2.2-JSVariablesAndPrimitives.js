@@ -20,7 +20,6 @@ let satisfied = false;
 let favoriteThing = "Music";
 
 // print the data type of "favoriteThing"
-console.log(favoriteThing);
 console.log(typeof favoriteThing);
 
 // You heard a new song that became your favorite.
@@ -30,7 +29,6 @@ favoriteSong = "new song";
 // You no longer like the type of data stored in "favoriteThing"
 // Reassign "favoriteThing" to a different primitive data type and print its type
 favoriteThing = "Loud Music";
-console.log(favoriteThing);
 console.log(typeof favoriteThing);
 
 // Happy Birthday!
