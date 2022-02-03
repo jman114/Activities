@@ -1,15 +1,15 @@
 // ? what should we expect to print?
 
 // basic math
-console.log(10 + 5); //15
-console.log(12 - 3); //9
-console.log(15 / 2); //7.5
-console.log(4 * 5); //20
-console.log(2 ** 3); //8
+// console.log(10 + 5); //15
+// console.log(12 - 3); //9
+// console.log(15 / 2); //7.5
+// console.log(4 * 5); //20
+// console.log(2 ** 3); //8
 
 // adding/concatenating strings
-console.log("10" + "5");
-console.log("Hello " + "world");
+// console.log("10" + "5");
+// console.log("Hello " + "world");
 
 // modulo (remainder)
 console.log(4 % 2);
