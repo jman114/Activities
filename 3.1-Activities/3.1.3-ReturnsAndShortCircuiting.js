@@ -4,19 +4,24 @@ function myNumberFunction() {
     num = num + 3;
     num = num % 4;
     num = num * 14;
-    console.log(num);
+    return console.log(num);
   }
-  
+  // myNumberFunction();
+
   // change the function above to return a value
   
   // Short Circuiting
   // ! the console.log will not print
-  function shortCircuitFunction() {
-    return "Zap! - Short Circuited!";
+   function shortCircuitFunction() {
+    return "Zap! - Short Circuited!";  
     console.log(
       "This will never print because it is after the return statement."
     );
+    
   }
+
+  shortCircuitFunction();
+  // console.log(shortCircuitFunction);
   
   // ? will the following function short circuit?
   let height = 50;
