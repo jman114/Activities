@@ -21,9 +21,10 @@ const something = [x, y, 4, "green", true, false, null, [9, 0, 9, 8, 5], ["this"
 
 // with for...of, loop over the Array, modify the value and add to a different Array
   let z;        // empty variable
-  let q = {};   // empty array
+  let q = {};   // empty object
 
   for (let element of something) {
+
    let newElement = element + 1;
     //console.log(newElement);
     
