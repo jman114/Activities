@@ -1,0 +1,13 @@
+* {
+    background-color: aqua;
+    
+}
+div,
+.smartcolor {
+    color:lightcoral
+}
+
+div,
+.bold {
+    font-weight: bold;
+}
